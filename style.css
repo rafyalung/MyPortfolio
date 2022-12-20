@@ -8,8 +8,9 @@
     height: 100vh;
     width: 100%;
     background-image: url(img1.jpg);
-    background-size: cover;
-    background-position: center;
+    background-size:cover;
+    background-position:center;
+
 }
 nav{
     display:flex;
@@ -202,7 +203,7 @@ button:hover{
   min-height: 400px;
 }
 .card{
-    height:400px;
+    height:550px;
     width:335px;
     padding: 20px 35px;
     background: #191919;
