@@ -34,7 +34,7 @@ nav{
 nav ul li{
     list-style-type: none;
     display:inline-block;
-    padding: 10px 25px;
+    padding: 10px 12px;
     transition: transform .4s
 }
 nav ul li:hover{
@@ -69,7 +69,7 @@ nav ul li a:hover{
 }
 .content{
     position:absolute;
-    top:50%;
+    top:55%;
     left:8%;
     transform:translateY(-50%);
 }
@@ -366,4 +366,15 @@ footer p{
   
   html,body{
     overflow-x: hidden;
+}
+@media(min-width:600px){
+    .mainpage{
+        
+        width:100%;
+        background-image: url(img1.jpg);
+        background-size: 100%;
+        background-position-x: right;
+        background-repeat: no-repeat;
+        background-color: black;
+    }
 }
