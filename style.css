@@ -151,10 +151,14 @@ h4{
     align-items: left;
    min-height: 100px;
    padding-bottom: 30px;
+   width:680px;
+}
+.skills-card p{
+    font-size: 15px;
 }
 .skills-card{
     height:80px;
-    width:80px;
+    width:100px;
     padding: 10px 15px;
     background: black;
     border-radius: 20px;
