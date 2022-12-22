@@ -150,7 +150,7 @@ h4{
     align-items: flex-end;
 }
 
-.skills-box, .skills-box2{
+.skills-box, .skills-box2,  .certifications-box{
     display: flex;
     justify-content: left;
     align-items: left;
