@@ -145,15 +145,22 @@ h4{
     color:white;
     text-decoration: none;
 }
+.about-text button{
+    display: flex;
+    align-items: flex-end;
+}
+
 .skills-box, .skills-box2{
     display: flex;
     justify-content: left;
     align-items: left;
    min-height: 100px;
    width:600px;
+
    
 }
 .skills-box2{
+   
     margin-bottom: 40px;
 }
 .skills-card p{
@@ -177,6 +184,15 @@ h4{
     display: block;
     text-align: center;
     color:#f9004d;
+}
+.skills{
+    display: block;
+    text-align: center;
+    
+}
+.skills-box, .skills-box2{
+    display:flex;
+    justify-content: center;
 }
 
 button{
