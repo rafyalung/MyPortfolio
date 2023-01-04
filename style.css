@@ -43,6 +43,7 @@ nav ul li{
 }
 nav ul li:hover{
     transform:scale(1.5);
+    
 }
 nav ul li a{
     color:white;
@@ -50,11 +51,14 @@ nav ul li a{
     font-weight: bold;
     text-transform: capitalize;
     
+    
 
 }
 nav ul li a:hover{
     color:#f9004d;
     transform:scale(1.2);
+    
+   
 }
 .btn{
     background-color: #f9004d;
@@ -70,6 +74,7 @@ nav ul li a:hover{
     border: 2px solid #f9004d;
     background-color: transparent;
     transform:scale(1.2);
+    box-shadow: 0 0 5px 3px #f9004d;
 }
 .content{
     position:absolute;
@@ -98,6 +103,7 @@ h4{
 }
 .content button:hover{
     transform:scale(1.2);
+    box-shadow: 0 0 5px 3px #f9004d;
 }
 .about{
     width: 100%;
@@ -156,12 +162,13 @@ h4{
     align-items: left;
    min-height: 100px;
    width:600px;
-
+  
    
 }
 .skills-box2, .certifications-box{
    
     margin-bottom: 40px;
+    
 }
 .skills-card p{
     font-size: 15px;
@@ -173,11 +180,12 @@ h4{
     padding: 10px 15px;
     background: black;
     border-radius: 20px;
-    margin: 5px;
+    margin: 10px;
     position:relative;
     overflow: hidden;
     text-align: center;
     border: 2px solid #f9004d;
+    box-shadow: 0 0 5px 3px #f9004d;
 }
 .skills-card i{
     font-size: 50px;
@@ -210,6 +218,7 @@ h4{
 .certifications-card:hover{
     transition: transform .4s;
     transform:scale(1.1);
+    box-shadow: 0 0 5px 3px #f9004d;
 }
 button{
     background-color: #f9004d;
@@ -225,6 +234,7 @@ button:hover{
     background-color: transparent;
     border: 2px solid #f9004d;
     cursor: pointer;
+    box-shadow: 0 0 5px 3px #f9004d;
 
 }
 .services{
@@ -262,6 +272,7 @@ button:hover{
     transform:scale(1.08);
     background: #301515;
     color:white;
+    box-shadow: 0 0 5px 5px #f9004d;
 }
 
 
@@ -420,5 +431,6 @@ footer p{
         background-position-x: right;
         background-repeat: no-repeat;
         background-color: black;
+        font-size: larger;
     }
 }
